@@ -41,7 +41,9 @@ fun DeviceScreen(
             ) {
                 Text(text = "Start Scan")
             }
-            Button(onClick = onStopScan) {
+            Button(
+                onClick = onStopScan,
+            ) {
                 Text(text = "Stop Scan")
             }
         }
