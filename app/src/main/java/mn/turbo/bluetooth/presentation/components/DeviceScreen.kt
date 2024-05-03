@@ -36,7 +36,9 @@ fun DeviceScreen(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceAround,
         ) {
-            Button(onClick = onStartScan) {
+            Button(
+                onClick = onStartScan,
+            ) {
                 Text(text = "Start Scan")
             }
             Button(onClick = onStopScan) {
